@@ -4,37 +4,18 @@ h1{
     font-weight:bold;
     font-family:Arial;
     margin:35px;
-   
 }
-h2{
-    color:gray;
-    font-family:Arial;
-
-    margin:35px;
-}    
-h4{
-    color:gray;
-    font-family:Courier;
-
-    }
-
 img{
     border:solid 5px black;
-    margin:20px;
-   
-    -moz-border-radius: 10px;
+    margin:40px;
+     -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
 border-radius: 10px; /* future proofing */
 -khtml-border-radius: 10px; /* for old Konqueror browsers */
-    
 }
 img{ transition: all .2s ease-in-out; }
 img:hover { transform: scale(1.07); }
 
-body{
-    padding:17px;
-    background-color: RGB(255,255,204)  ;
-}
 p{
     border:2px black solid;
     background-color: RGB(255, 102, 102);
@@ -44,14 +25,12 @@ p{
     font-weight: bold;
     margin-left: 17px;
     
-     -moz-border-radius: 10px;
+    -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
-border-radius: 10px; /* future proofing */
--khtml-border-radius: 10px; /* for old Konqueror browsers */
+border-radius: 10px; 
+-khtml-border-radius: 10px; 
 }
-
-
- a:hover {
+a:hover {
     background-color: black;
     color: white;
     border:2px solid white;
@@ -68,17 +47,17 @@ border-radius: 10px; /* future proofing */
     background-color:white;
     text-align:center;
 
-      -moz-border-radius: 10px;
+    -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
 border-radius: 10px; /* future proofing */
--khtml-border-radius: 10px; /* for old Konqueror browsers */ 
- }
- p { transition: all .2s ease-in-out; }
-p:hover { transform: scale(1.009); }
- 
+-khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+body{
+    padding:17px;
+    background-color: RGB(255,255,204)  ;
+}
+h4{
+    color:gray;
+    font-family:Courier;
 
-
-
-
-
-
+    }
